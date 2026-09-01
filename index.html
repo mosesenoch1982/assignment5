@@ -23,10 +23,12 @@
             max-width: 400px;
             text-align: center;
         }
-        .header-logo {
-            width: 90px;
-            height: auto;
+        .logo-wrapper {
             margin-bottom: 15px;
+        }
+        .header-logo {
+            width: 100px;
+            height: auto;
         }
         h1 {
             color: #0b3c5d;
@@ -100,8 +102,10 @@
 <body>
 
 <div class="login-container">
-    <!-- Pointing directly to your image asset -->
-    <img src="tnlo.png" alt="Tamilnadu Police Logo" class="header-logo">
+    <div class="logo-wrapper">
+        <!-- Ensure tnlo.png is in the same directory of your GitHub repository -->
+        <img src="tnlo.png" alt="Tamilnadu Police Logo" class="header-logo">
+    </div>
     
     <h1>Tamilnadu Police</h1>
     <h2>Official Login Portal</h2>
